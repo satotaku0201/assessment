@@ -64,7 +64,7 @@ const answers = [
     '{userName}のいいところは思いやりです。{userName}に気をかけてもらった多くの人が感謝しています。',
     '{userName}のいいところは感受性です。{userName}が感じたことに皆が共感し、わかりあうことができます。',
     '{userName}のいいところは節度です。強引すぎない{userName}の考えに皆が感謝しています。',
-    '{userName}のいいところは好奇心です。新しいことに向かっていく{userName}の心構えが多くの人に魅力的に映ります。',
+    '{userName}のいいところは好奇心です。新しいことにむかっていく{userName}の心構えが多くの人に魅力的に映ります。',
     '{userName}のいいところは気配りです。{userName}の配慮が多くの人を救っています。',
     '{userName}のいいところはその全てです。ありのままの{userName}自身がいいところなのです。',
     '{userName}のいいところは自制心です。やばいと思ったときにしっかりと衝動を抑えられる{userName}が皆から評価されています。',
@@ -77,7 +77,7 @@ const answers = [
     * @return {string} 診断結果
     */
     function assessment(userName) {
-        // 全文字のコード番号を取得してそれを足し合わせる
+        // 全文字のコード番号を取得してそれをて足し合わせる
         let sumOfcharCode = 0;
         for (let i = 0; i < userName.length; i++) {
             sumOfcharCode = sumOfcharCode + userName.charCodeAt(i);
